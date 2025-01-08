@@ -443,14 +443,15 @@ def formatResult(result):
 
     info += chunk_spelling
 
-  menu = info
+  # menu = info
 
   if returnValue:
-    menu = decode(returnValue.spelling) + " " + menu
+    # menu = decode(returnValue.spelling) + " " + menu
+    info = decode(returnValue.spelling) + " " + info
 
   completion['word'] = snippetsAddSnippet(info, word, abbr)
   completion['abbr'] = abbr
-  completion['menu'] = menu
+  # completion['menu'] = menu
   completion['info'] = info
   completion['dup'] = 1
 

@@ -1,3 +1,19 @@
+## My small changes
+
+I know there are many completion plugins like Youcompleteme, coc.nvim... but I still like the way clang_complete works even though it is a bit old.
+In my opinion, completion menu is a bit long. This fork removes the information behind it and displays it in preview (I prefer completeopt+=popup)
+
++ Notice: Only available in versions of Vim compiled with the ```+textprop``` feature enabled.
+
+To check it, run the command:
+
+``` bash
+$ vim --version | grep textprop
+```
+Result: 
+
+---
+
 This plugin uses clang for accurately completing C and C++ code.
 
 ## Installation
