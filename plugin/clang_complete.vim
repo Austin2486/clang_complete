@@ -207,10 +207,6 @@ function! s:ClangCompleteInit()
     set completeopt+=menuone
   endif
 
-	" Overrides 'preview'
-	set completeopt+=popup
-	set completepopup=height:10,width:60,highlight:Terminal
-
   " Disable every autocmd that could have been set.
   augroup ClangComplete
     autocmd!
