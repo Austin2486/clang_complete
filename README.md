@@ -14,6 +14,9 @@ Result:
 
 ![Screenshot from 2025-01-09 00-14-13](https://github.com/user-attachments/assets/396222c4-55bc-4888-b658-55ad4fb8377a)
 
+### Todo:
+[] Support fuzzy matching like VS Code
+
 ---
 
 This plugin uses clang for accurately completing C and C++ code.
